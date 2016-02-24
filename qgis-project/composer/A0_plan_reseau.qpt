@@ -1,0 +1,298 @@
+<Composer title="A0 plan réseau" visible="1">
+ <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="1189" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="10" printAsRaster="1" generateWorldFile="0" paperHeight="841" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+  <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="bevel"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+   </layer>
+  </symbol>
+  <SnapLine y1="0" x1="0" y2="841" x2="0"/>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Format: 80 X 100" htmlState="0" halign="4">
+   <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="109.677" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="40.15" y="109.677" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="53.9673" outlineWidth="0.3" excludeFromExports="0" uuid="{0b3a6e0e-47e6-4c1c-8099-cd3e1371c615}" height="8.1955" itemRotation="0" frame="true" pagex="40.15">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Mise à jour: [%'Mise à jour: ' ||   &quot;version_date&quot; %]" htmlState="0" halign="1">
+   <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="109.677" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="148.233" y="109.677" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="161.617" outlineWidth="0.3" excludeFromExports="0" uuid="{03eb0a22-e3c2-4e21-81e6-f2d50c6a69bf}" height="8.19549" itemRotation="0" frame="true" pagex="148.233">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="[% &quot;name&quot; %]" htmlState="0" halign="4">
+   <LabelFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="227" blue="0" green="0"/>
+   <ComposerItem pagey="109.677" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="94.1355" y="109.677" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="54.1173" outlineWidth="0.3" excludeFromExports="0" uuid="{44b44636-4711-428e-87f8-5dc31664fd06}" height="8.19549" itemRotation="0" frame="true" pagex="94.1355">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLegend symbolWidth="7" title="Légende" boxSpace="2" rasterBorderWidth="0" splitLayer="0" equalColumnWidth="1" map="0" titleAlignment="1" rasterBorder="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="7" rasterBorderColor="0,0,0,255">
+   <styles>
+    <style marginBottom="2" name="title">
+     <styleFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="2" name="group">
+     <styleFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="2" name="subgroup">
+     <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="2" name="symbol">
+     <styleFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="2" marginLeft="2" name="symbolLabel">
+     <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+   </styles>
+   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Réseau">
+     <customproperties/>
+     <layer-tree-group expanded="1" checked="Qt::Checked" name="ouvrages">
+      <customproperties/>
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="installation20130304110004938" name="ouvrage général">
+       <customproperties>
+        <property key="showFeatureCount" value="0"/>
+       </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="od_cover20141208155733681" name="couvercles">
+       <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="od_installation_building20141208105620864" name="ouvrage - polygones">
+       <customproperties/>
+      </layer-tree-layer>
+     </layer-tree-group>
+     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Réseau">
+      <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="conduites_copy20130709141244955" name="conduites">
+       <customproperties>
+        <property key="legend/node-order" value="0,2,7,9,11,12,18,24,25,27,33,34"/>
+       </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="valve20130304110011497" name="vannes">
+       <customproperties>
+        <property key="showFeatureCount" value="0"/>
+       </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="hydrant20130304110004848" name="hydrantes">
+       <customproperties>
+        <property key="overview" value="1"/>
+       </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="leak20130821111917060" name="fuite">
+       <customproperties/>
+      </layer-tree-layer>
+     </layer-tree-group>
+     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Noeuds">
+      <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="node20130304110005126" name="noeuds">
+       <customproperties>
+        <property key="showFeatureCount" value="0"/>
+       </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="od_installationpart20140429113327995" name="Pièces d'installation">
+       <customproperties>
+        <property key="showFeatureCount" value="0"/>
+       </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="od_node20140116161508743" name="noeuds - tous - controle">
+       <customproperties/>
+      </layer-tree-layer>
+     </layer-tree-group>
+    </layer-tree-group>
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Côtes">
+     <customproperties/>
+     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="constructionpoint20130807094904851" name="points de construction">
+      <customproperties/>
+     </layer-tree-layer>
+    </layer-tree-group>
+   </layer-tree-group>
+   <ComposerItem pagey="40" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="331.036" y="40" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="303.4" outlineWidth="0.3" excludeFromExports="0" uuid="{6338fc2f-f979-47c9-ab9d-421af8a89209}" height="102.7" itemRotation="0" frame="false" pagex="331.036">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="PLAN EAU POTABLE" htmlState="0" halign="4">
+   <LabelFont description="Trebuchet MS,24,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="227" blue="28" green="26"/>
+   <ComposerItem pagey="89.2793" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="40.15" y="89.2793" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="269.7" outlineWidth="0.3" excludeFromExports="0" uuid="{6c6ac20d-92bf-4802-9f24-5d20e366dbae}" height="20.3971" itemRotation="0" frame="true" pagex="40.15">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerPicture resizeMode="1" pictureRotation="0" pictureWidth="141.013" file="./composer/Logo_Pully.svg" pictureHeight="39.4936" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="42.6033" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="104.493" y="42.6033" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="141.013" outlineWidth="0.3" excludeFromExports="0" uuid="{8913bea2-dcd7-4c25-a6d6-b8af10f581cc}" height="39.4936" itemRotation="0" frame="false" pagex="104.493">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Direction des Travaux et des Services Industriels" htmlState="0" halign="1">
+   <LabelFont description="Trebuchet MS,14,-1,5,50,1,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="79.1187" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="119.144" y="79.1187" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="111.713" outlineWidth="0.3" excludeFromExports="0" uuid="{006e1238-03ca-4ff5-a012-45b8778fb309}" height="10.8813" itemRotation="0" frame="false" pagex="119.144">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="0" marginY="0" labelText="" htmlState="0" halign="1">
+   <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="40.15" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="40.15" y="40.15" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="269.7" outlineWidth="0.3" excludeFromExports="0" uuid="{04232c8e-f1b2-46fe-889f-589e57755eec}" height="99.7" itemRotation="0" frame="true" pagex="40.15">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="!!! DESCRIPTION !!!" htmlState="0" halign="4">
+   <LabelFont description="Arial,24,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="190" page="1" id="" lastValidViewScaleFactor="1.05725" positionMode="0" positionLock="false" x="690" y="190" visibility="0" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="166.75" outlineWidth="0" excludeFromExports="0" uuid="{3d5bcf96-fb37-4f1c-ad98-f403529668e3}" height="34.4497" itemRotation="0" frame="true" pagex="690">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="[%'IMPRIME LE \n' || day($now) || '.' || month($now) || '.' || year($now)%]" htmlState="0" halign="4">
+   <LabelFont description="Arial,24,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="160" page="1" id="" lastValidViewScaleFactor="3.97662" positionMode="0" positionLock="false" x="530" y="160" visibility="0" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="120.75" outlineWidth="0" excludeFromExports="0" uuid="{81ef03bb-0cde-4ae8-958a-b286a883ec4e}" height="34.4496" itemRotation="0" frame="true" pagex="530">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerMap mapRotation="0" keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
+   <Extent ymin="151231.24999989799107425" xmin="539843.74999985343310982" ymax="151431.25000010200892575" xmax="540131.25000014656689018"/>
+   <LayerSet>
+    <Layer>installation20130304110004938</Layer>
+    <Layer>od_cover20141219115626229</Layer>
+    <Layer>valve20130304110011497</Layer>
+    <Layer>hydrant20130304110004848</Layer>
+    <Layer>od_remote20150116100522170</Layer>
+    <Layer>leak20130821111917060</Layer>
+    <Layer>node20130304110005126</Layer>
+    <Layer>od_part20140429113327995</Layer>
+    <Layer>conduites_copy20130709141244955</Layer>
+    <Layer>od_crossing20141023083754327</Layer>
+    <Layer>installation_building20150129093026790</Layer>
+    <Layer>printmap20130304110011400</Layer>
+    <Layer>Objets_divers20150129095139169</Layer>
+    <Layer>Batiments_hors_sol20150129095241992</Layer>
+    <Layer>Batiments_sous_sol20150129095230862</Layer>
+   </LayerSet>
+   <Grid/>
+   <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{7f671b61-cebd-44ad-8f03-04891c6f2d26}" leftAnnotationDirection="0" topAnnotationPosition="0" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="1" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="0" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="0" gridFrameWidth="4" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="1" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" clip_to_extent="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="flat"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="0,0,0,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0.3"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="area"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <annotationFontProperties description="Arial,10,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0"/>
+   <ComposerItem pagey="20" page="1" id="" lastValidViewScaleFactor="0.500038" positionMode="0" positionLock="false" x="20" y="20" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="1150" outlineWidth="0" excludeFromExports="0" uuid="{244346f4-b2ef-4c67-98df-aa411e41a462}" height="800" itemRotation="0" frame="true" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedMapScale expr="250" field="" active="true" useExpr="true"/>
+    <dataDefinedMapXMin expr="xmin(  $geometry )" field="" active="true" useExpr="true"/>
+    <dataDefinedMapYMin expr="ymin(  $geometry )" field="" active="true" useExpr="true"/>
+    <dataDefinedMapXMax expr="xmax(  $geometry )" field="" active="true" useExpr="true"/>
+    <dataDefinedMapYMax expr="ymax(  $geometry )" field="" active="true" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerArrow arrowHeadFillColor="0,0,0,255" arrowHeadOutlineColor="0,0,0,255" startMarkerFile="" boundsBehaviourVersion="22" arrowHeadWidth="0" endMarkerFile="" outlineWidth="0.3" markerMode="1">
+   <lineStyle>
+    <symbol alpha="1" clip_to_extent="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="flat"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="draw_inside_polygon" v="0"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="line_color" v="0,0,0,255"/>
+      <prop k="line_style" v="solid"/>
+      <prop k="line_width" v="0.3"/>
+      <prop k="line_width_unit" v="MM"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+     </layer>
+    </symbol>
+   </lineStyle>
+   <StartPoint x="15.15" y="407"/>
+   <StopPoint x="34.85" y="407"/>
+   <ComposerItem pagey="406.85" page="1" id="" lastValidViewScaleFactor="9.29985" positionMode="3" positionLock="false" x="15" y="406.85" visibility="0" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="20" outlineWidth="0" excludeFromExports="0" uuid="{8aa14288-e222-4b50-bc58-7518907bbe52}" height="0.3" itemRotation="0" frame="false" pagex="15">
+    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerArrow>
+  <customproperties/>
+ </Composition>
+ <Atlas hideCoverage="false" coverageLayer="printmap20130304110011400" singleFile="false" filenamePattern=" 'folio_' ||  &quot;communes_name&quot; || '_' || &quot;name&quot;" enabled="true" filterFeatures="false" sortFeatures="false" pageNameExpression=""/>
+</Composer>
