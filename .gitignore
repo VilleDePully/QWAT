@@ -7,3 +7,4 @@ tmp/*
 offline.sqlite
 # Sphinx documentation
 doc/_build/
+qgis-project/qwat_pully.qgs
