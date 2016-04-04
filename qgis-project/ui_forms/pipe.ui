@@ -111,7 +111,7 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QgsRelationReferenceWidget" name="fk_folder"/>
+           <widget class="QgsRelationReferenceWidget" name="fk_folder" native="true"/>
           </item>
           <item row="4" column="1">
            <widget class="QLineEdit" name="year_rehabilitation"/>
@@ -234,7 +234,7 @@
      </widget>
      <widget class="QWidget" name="tab_4">
       <attribute name="title">
-       <string>Hydrauliqe</string>
+       <string>Hydraulique</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_8">
        <item row="0" column="3" rowspan="2">
@@ -663,7 +663,7 @@
            </widget>
           </item>
           <item row="3" column="1">
-           <widget class="QgsRelationReferenceWidget" name="fk_parent">
+           <widget class="QgsRelationReferenceWidget" name="fk_parent" native="true">
             <property name="embedForm" stdset="0">
              <bool>false</bool>
             </property>
@@ -687,10 +687,10 @@
       <layout class="QGridLayout" name="gridLayout_10">
        <item row="0" column="0">
         <widget class="QgsRelationEditorWidget" name="relation_pipe_subscriber">
-         <property name="collapsed">
+         <property name="collapsed" stdset="0">
           <bool>false</bool>
          </property>
-         <property name="qgisRelation">
+         <property name="qgisRelation" stdset="0">
           <string notr="true">relation_pipe_subscriber</string>
          </property>
         </widget>
@@ -704,10 +704,10 @@
       <layout class="QGridLayout" name="gridLayout_9">
        <item row="0" column="0">
         <widget class="QgsRelationEditorWidget" name="relation_pipe_leak">
-         <property name="collapsed">
+         <property name="collapsed" stdset="0">
           <bool>false</bool>
          </property>
-         <property name="qgisRelation">
+         <property name="qgisRelation" stdset="0">
           <string notr="true">relation_pipe_leak</string>
          </property>
         </widget>
@@ -743,6 +743,7 @@
    <class>QgsRelationEditorWidget</class>
    <extends>QgsCollapsibleGroupBox</extends>
    <header>qgsrelationeditorwidget.h</header>
+   <container>1</container>
   </customwidget>
   <customwidget>
    <class>QgsRelationReferenceWidget</class>
