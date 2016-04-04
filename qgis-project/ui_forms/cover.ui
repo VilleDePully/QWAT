@@ -76,7 +76,7 @@
     </widget>
    </item>
    <item row="2" column="2">
-    <widget class="QgsRelationReferenceWidget" name="fk_installation"/>
+    <widget class="QComboBox" name="fk_installation"/>
    </item>
    <item row="2" column="4" colspan="2">
     <widget class="QLabel" name="label_10">
