@@ -99,7 +99,7 @@
         </widget>
        </item>
        <item row="4" column="4">
-        <widget class="QLineEdit" name="model"/>
+        <widget class="QComboBox" name="fk_model_sup"/>
        </item>
        <item row="4" column="3">
         <widget class="QLabel" name="label_20">
